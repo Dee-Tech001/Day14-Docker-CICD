@@ -2,7 +2,7 @@ name: docker-ci
 
 on:
   push:
-    branches: [main]
+    branches: [ main, test-failure ]
   pull_request:
 
 permissions:
